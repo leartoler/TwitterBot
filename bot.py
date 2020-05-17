@@ -8,10 +8,10 @@ import os
 #from our keys module (keys.py), import the keys dictionary
 from keys import keys
 
-CONSUMER_KEY = 'PgNR0I0NTrPaetEF0ORGJlAts'
-CONSUMER_SECRET = 'ffZcygNtITFoR48vEyhjtlVaBKee9D6rI9bjLyKp0QIQkitmgt'
-ACCESS_TOKEN = '256265100-gG4LCytmL1bZmgRWcg7tlaGTv78R7FujQ9tHJsTy'
-ACCESS_TOKEN_SECRET = 'FQBFXzo2wdyF7SWl6LCAEap6F2UEkilip7qKS8LTFczoQ'
+CONSUMER_KEY = '}'
+CONSUMER_SECRET = '}'
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
